@@ -1,0 +1,82 @@
+https://carfourless.com/schwab/callback
+https://developer.schwab.com/dashboard/apps/app/0649dbc8-fbcd-4b5a-bb9e-7bde5ea9ed3f
+####
+Lumi08549	
+Alex08540!
+
+App Details - CSHW Market DataApi
+	Modify App
+		Deactivate App
+App Details
+App Analytics
+	App Machine Name: 
+		prod-ablake8788outlookcom-c3e2a89a-c817-4c15-aeec-91ed9677577a
+Creator:
+	ablake8788@outlook.com
+Create Date:
+	12/05/2025
+App Description:
+	CSHW Market Data API for Python
+Environment
+	Production
+Status
+	Ready For Use
+Callback URL
+	https://carfourless.com/schwab/callback
+Order Limit
+	100
+Key Issued Date
+	12/05/2025
+Last Modified Date
+	12/05/2025
+APIs
+	Market Data Production
+App Key
+	YaFWAGkzRwjfhV8vPoGG0MZLvVQ5atSa52Hpzq7cl5R97Gg5
+	YaFWAGkzRwjfhV8vPoGG0MZLvVQ5atSa52Hpzq7cl5R97Gg5
+Secret
+	QYYggd4ov5NRMWtosRboGA9VrKeYiCPzlGNhOpNoSADOtyGArvbkMyV4ACjWgg5s
+
+
+
+
+
+
+
+
+
+
+
+Submissions
+Filter Submissions
+Filter   
+Date
+Title
+Account
+Account ID
+Period
+Date
+Title
+Account
+Account ID
+Period
+18-Nov-2025	
+Return Payment for $1,034.18 on 11/17/2025
+Sales and Use Tax	80016190686	30-Jun-2024
+
+$17,987.81 
+$23,998.17 
+$23,335.65 
+
+1034 - 6
+x      100    
+x= 
+
+$18,595.00 
+$19,527.27 
+$68,846.27 
+$137,353.17 
+$133,897.44 
+$51,378 	$18,249 
+
+
