@@ -46,7 +46,7 @@ def resource_path(relative_path: str) -> Path:
 
 # ---------- Config loading ----------
 
-CONFIG_FILENAME = "schwab_market_data.ini"
+CONFIG_FILENAME = "../schwab_market_data.ini"
 config_path = resource_path(CONFIG_FILENAME)
 
 if not config_path.exists():
