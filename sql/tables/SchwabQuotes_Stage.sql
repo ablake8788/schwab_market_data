@@ -1,0 +1,59 @@
+﻿-- ============================================
+-- Table: dbo.SchwabQuotes_Stage
+-- Database: PBI_Projects
+-- Generated: 2026-05-01 15:21:03
+-- ============================================
+
+IF OBJECT_ID('dbo.SchwabQuotes_Stage', 'U') IS NOT NULL
+    DROP TABLE dbo.SchwabQuotes_Stage;
+GO
+CREATE TABLE dbo.SchwabQuotes_Stage (
+    StageId int NOT NULL IDENTITY(1,1),
+    RawId int NOT NULL,
+    AssetMainType nvarchar(20) NULL,
+    AssetSubType nvarchar(20) NULL,
+    QuoteType nvarchar(20) NULL,
+    Realtime bit NULL,
+    Ssid bigint NULL,
+    Symbol nvarchar(20) NULL,
+    FundamentalAvg10DaysVolume decimal(18,4) NULL,
+    FundamentalAvg1YearVolume decimal(18,4) NULL,
+    FundamentalDivAmount decimal(18,4) NULL,
+    FundamentalDivFreq int NULL,
+    FundamentalDivPayAmount decimal(18,4) NULL,
+    FundamentalDivYield decimal(18,6) NULL,
+    FundamentalEps decimal(18,6) NULL,
+    FundamentalFundLeverageFactor decimal(18,6) NULL,
+    FundamentalLastEarningsDate datetime2 NULL,
+    FundamentalPeRatio decimal(18,6) NULL,
+    Quote52WeekHigh decimal(18,4) NULL,
+    Quote52WeekLow decimal(18,4) NULL,
+    QuoteAskMICId nvarchar(10) NULL,
+    QuoteAskPrice decimal(18,4) NULL,
+    QuoteAskSize int NULL,
+    QuoteAskTime bigint NULL,
+    QuoteBidMICId nvarchar(10) NULL,
+    QuoteBidPrice decimal(18,4) NULL,
+    QuoteBidSize int NULL,
+    QuoteBidTime bigint NULL,
+    QuoteClosePrice decimal(18,4) NULL,
+    QuoteHighPrice decimal(18,4) NULL,
+    QuoteLastMICId nvarchar(10) NULL,
+    QuoteLastPrice decimal(18,4) NULL,
+    QuoteLastSize int NULL,
+    QuoteLowPrice decimal(18,4) NULL,
+    QuoteMark decimal(18,4) NULL,
+    QuoteMarkChange decimal(18,4) NULL,
+    QuoteMarkPercentChange decimal(18,8) NULL,
+    QuoteNetChange decimal(18,4) NULL,
+    QuoteNetPercentChange decimal(18,8) NULL,
+    QuoteOpenPrice decimal(18,4) NULL,
+    QuotePostMarketChange decimal(18,4) NULL,
+    QuotePostMarketPercentChange decimal(18,8) NULL,
+    QuoteQuoteTime bigint NULL,
+    QuoteSecurityStatus nvarchar(20) NULL,
+    QuoteTotalVolume bigint NULL,
+    QuoteTradeTime bigint NULL,
+    InsertedAt datetime2 NOT NULL,
+);
+GO

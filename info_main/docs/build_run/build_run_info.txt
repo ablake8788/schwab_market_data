@@ -1,4 +1,17 @@
 #################
+cd C:\Ara\Python\Api\Schwab\Working\schwab_market_data
+git checkout dev
+git status
+
+Step 1 — commit everything that's staged:
+git commit -m "add price_history_repository, updated main.py, docs and sql folder"
+
+
+Step 2 — handle the deleted files — either keep or remove them:
+# If you want to keep the deletions (clean up old files)
+git add -A
+git commit -m "reorganise docs, remove old svg files, add gitignore and sql folder"
+
 
  pyinstaller --onefile schwab_market_data.py
 
